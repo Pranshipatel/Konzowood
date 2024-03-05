@@ -1,0 +1,85 @@
+@font-face {
+    font-family: font1;
+    src: url(OggMedium.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(OggRegular.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(PPMori-Variable.ttf);
+}
+
+*{
+margin:0; 
+padding:0; 
+box-sizing:border-box; 
+}
+
+html,body{ 
+width:100%; 
+height:100%; 
+}
+
+#loader{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#loader video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background: #00000027;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2.5vw 3vw;
+}
+#loader #overlay h2{
+    font-family: font3;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 1.6vw;
+    color: #3E362E;
+}
+#loader #overlay h1{
+    font-family: font3;
+    font-size: 3.3vw;
+    font-weight: 400;
+    color: #3E362E;
+}
+#loader #overlay button{
+    padding: 1.2vw 3vw;
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    background: #3E362E;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    display: flexli;
+    font-family: font2;
+}
+#loader #overlay button img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
+
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background: salmon;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background: lightblue;
+}
